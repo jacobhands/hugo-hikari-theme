@@ -1,6 +1,6 @@
 <div class="off-canvas">
     <figure class="avatar">
-        <img src="{{ .Site.BaseURL }}img/avatar.jpg" title="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+        <img src="/img/avatar.jpg" title="{{ with .Site.Params.name }}{{ . }}{{ end }}">
     </figure>
     <div class="bio">
         {{ with .Site.Params.offcanvas.title }}
@@ -16,7 +16,7 @@
         {{ end }}
 
         <ul>
-            <li><a target="_blank" href="{{ .Site.BaseURL }}index.xml">RSS feed</a></li>
+            <li><a target="_blank" href="/index.xml">RSS feed</a></li>
         </ul>
 
         {{ with .Site.Params.offcanvas.followme }}
